@@ -1,0 +1,5 @@
+[2018-09-21 17:39:40] test.INFO: Starting daemon... [] []
+[2018-09-21 17:39:40] test.INFO: START CONSUME [] []
+[2018-09-21 17:39:41] test.INFO: END CONSUME [] []
+[2018-09-21 17:39:42] test.ALERT: Worker killed or terminated ["sessionId","5ba52cdc3b8d1"] []
+[2018-09-21 17:39:42] test.INFO: Closing daemon... [] []

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    rabbitmq:
+        build: rabbitmq
+        ports:
+          - "15672:15672"
+    php:
+        build: php
+        volumes:
+          - ../../../:/app
+        working_dir: /app
+        entrypoint: vendor/bin/phpunit tests/integration/StopConsumingTest.php
+
+
